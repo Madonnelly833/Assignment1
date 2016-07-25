@@ -1,0 +1,51 @@
+Constructors and Instantiation
+
+Each question in this assignment presents a constructor declaration. For each, provide the code needed to instantiate using that constructor
+
+Each of the following rows presents a constructor declaration.
+Provide the code required to instantiate an instance using the given constructor.
+
+Examples:
+Given this constructor...
+public Car()
+You provide
+new Car()
+1) public Car()
+
+Car neon = new Car();
+
+2) public Bean(int weight)
+
+Bean coffee = new Bean(4);
+
+3) public Airplane(long maxDistance)
+
+Airplane airbus = new Airplane(1767876576l);
+
+4) public Bus(int seats)
+
+Bus school = new Bus(15);
+
+5) public SkiLift(int chairs, float maxSpeed, float maxCapacity)
+
+SkiLift winter = new SkiLift(7, 10.5f, 270f);
+
+6) public Gondola(int maxOccupancy)
+
+Gondola lift = new Gondola(200);
+
+7) public Data(String[] args)
+
+new Data(new String[] {""""}
+
+8) public CelestialObject(Double distanceFromSol)
+
+CelestialObject pluto = new CelecstialObject(1290.90d);
+
+9) public Sun(Double maxSurfaceTemperature)
+
+Sun dwarf = new Sun(1787.45d);
+
+10) public Pluto(boolean isPlanetOrNot)
+
+Pluto dark = new Pluto (false);
